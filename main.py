@@ -1,4 +1,2 @@
-player_choice = "rock"
-computer_choice = "paper"
-
-print(player_choice)
+print(3 // 2)
+print(3 / 2)

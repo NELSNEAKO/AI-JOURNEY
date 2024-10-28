@@ -8,7 +8,7 @@ def get_choices():
   choices = {"player": player_choice, "computer": computer_choice}
   return choices
 
-
+  
 def check_win(player, computer):
   print(f"You chose {player}, computer chose {computer}")
 
@@ -29,7 +29,7 @@ def check_win(player, computer):
   elif player == "scissors":
     if computer == "paper":
       return "Scissors Cuts Paper, You Win!"
-    else:
+    else:   
       return "Rocks Smash Scissors, You Lose!"
 
 
